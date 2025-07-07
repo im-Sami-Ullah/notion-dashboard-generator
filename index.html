@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notion Dashboard Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Create Your Custom Notion Dashboard</h1>
+    
+    <form id="dashboardForm">
+      <input type="text" placeholder="Dashboard Title" id="title" required />
+      <textarea placeholder="Write your sections (comma-separated)" id="sections" required></textarea>
+      <button type="submit">Generate</button>
+    </form>
+
+    <div id="output" class="dashboard-preview"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
